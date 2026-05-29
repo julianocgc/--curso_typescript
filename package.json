@@ -1,29 +1,32 @@
 {
-  "devDependencies": {
-    "@types/node": "^25.9.1",
-    "tsx": "^4.22.3",
-    "typescript": "^6.0.3"
-  },
-  "name": "--curso_typescript",
+  "name": "curso-typescript-zero-to-hero",
   "version": "1.0.0",
-  "description": "Códigos TypeScript",
+  "description": "Curso TypeScript - Zero to Hero!",
   "main": "index.js",
-  "dependencies": {
-    "esbuild": "^0.28.0",
-    "undici-types": "^7.24.6"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianocgc/--curso_typescript.git"
+    "url": "git+https://github.com/glaucia86/curso-typescript-zero-to-hero.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/julianocgc/--curso_typescript/issues"
+    "url": "https://github.com/glaucia86/curso-typescript-zero-to-hero/issues"
   },
-  "homepage": "https://github.com/julianocgc/--curso_typescript#readme"
+  "homepage": "https://github.com/glaucia86/curso-typescript-zero-to-hero#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1",
+    "prettier": "2.8.7"
+  }
 }
